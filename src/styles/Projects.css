@@ -4,23 +4,31 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   padding: 20px 0;
-  background-color: var(--card-bg);
-  border: 1px solid var(--card-border);
-  box-shadow: 0 4px 6px var(--shadow);
+  /* background-color: var(--card-bg); */
+  /* border: 1px solid var(--card-border); */
+  /* box-shadow: 0 4px 6px var(--shadow); */
 }
 
 .project-card {
-  background: var(--secondary-light);
+  background: var(--card-bg);
   border-radius: 10px;
   overflow: hidden;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%; /* Ensure all cards are same height */
+  display: flex;
+  flex-direction: column;
+  margin: 0; /* Reset any default margins */
+  box-shadow: 0 4px 6px var(--shadow);
+  padding: 2%;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 12px var(--shadow);
 }
 
 .project-image {
+  width: 100%;
   height: 200px;
   overflow: hidden;
 }
@@ -29,18 +37,70 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  padding: 15px;
+  gap: 8px;
+  padding: 0;
+  margin-top: auto; /* Push to bottom */
 }
 
 .tech-tag {
   background: var(--accent);
-  padding: 5px 10px;
+  color: var(--bg-primary);
+  padding: 5px 12px;
   border-radius: 15px;
-  font-size: 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* styles/Projects.css */
+.projects-section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin: 0 0 10px 0;
+  color: var(--text-primary);
+}
+
+.project-description {
+  color: var(--text-secondary);
+  margin-bottom: 15px;
+  flex: 1; /* Allow description to fill space */
+} 
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
 }

@@ -1,19 +1,9 @@
-// components/Experience.js
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 import '../styles/Experience.css';
+import {experiences} from '../data';
 
 const Experience = () => {
-  const experiences = [
-    {
-      company: "Company Name",
-      logo: "/path-to-logo.png",
-      position: "Senior Developer",
-      period: "2020 - Present",
-      description: "Description of work and achievements"
-    },
-    // Add more experiences...
-  ];
 
   return (
     <section id="experience" className="experience-section">

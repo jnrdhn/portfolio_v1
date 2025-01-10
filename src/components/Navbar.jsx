@@ -1,4 +1,3 @@
-// components/Navbar.js
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 import '../styles/Navbar.css';

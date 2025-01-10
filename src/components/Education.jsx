@@ -1,20 +1,10 @@
-// components/Education.js
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 import '../styles/Education.css';
+import {education} from '../data'
 
 const Education = () => {
   const { darkMode } = useTheme();
-  
-  const education = [
-    {
-      institution: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      period: "2016 - 2020",
-      description: "Relevant coursework and achievements"
-    },
-    // Add more education entries...
-  ];
 
   return (
     <section id="education" className={`education-section ${darkMode ? 'dark' : ''}`}>
