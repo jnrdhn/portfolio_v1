@@ -1,0 +1,15 @@
+/* styles/Education.css */
+.education-timeline {
+  padding: 20px 0;
+}
+
+.education-item {
+  padding: 20px;
+  margin: 20px 0;
+  background: var(--secondary-light);
+  border-radius: 10px;
+  border-left: 4px solid var(--accent);
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: 0 4px 6px var(--shadow);
+}

@@ -1,0 +1,40 @@
+/* styles/Experience.css */
+.timeline {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: var(--accent);
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.timeline-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+
+.timeline-content {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: 0 4px 6px var(--shadow);
+  max-width: 500px;
+  padding: 20px;
+  background: var(--secondary-light);
+  border-radius: 10px;
+}
