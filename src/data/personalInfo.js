@@ -5,7 +5,7 @@ const personalInfo = {
     description: `Passionate  developer with expertise in modern web technologies.`,
     location: "Sometimes Bangalore/All time Hyderabad, India",
     email: "john.doe@example.com",
-    profileImage: "../assets/images/test.png",
+    profileImage: "/images/test.jpg",
     resume: "/files/resume.pdf"
   };
   

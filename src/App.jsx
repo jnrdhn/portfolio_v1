@@ -4,7 +4,8 @@ import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
-import Experience from './components/Experience';
+// import Experience from './components/Experience';
+import Experience from './components/ExperienceTimeline'
 import Education from './components/Education';
 import Contact from './components/Contact';
 import './styles/App.css';

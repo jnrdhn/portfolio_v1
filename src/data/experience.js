@@ -4,21 +4,32 @@ const experiences = [
     id: 1,
     company: "Company Name",
     position: "Senior Developer",
-    location: "City, Country",
-    type: "Full-time", // Full-time, Contract, Freelance
-    startDate: "2020-06",
+    startDate: "June 2020",
     endDate: "Present",
-    logo: "/images/companies/company1.png",
-    description: "Description of role and achievements",
-    responsibilities: [
-      "Led development of key features",
-      "Managed team of 5 developers",
-      // More responsibilities...
-    ],
-    technologies: ["React", "Node.js", "AWS"],
-    url: "https://company.com"
+    logo: "/images/test.jpg",
+    description: "Description of role and achievements...",
+    technologies: ["React", "Node.js", "AWS"]
   },
-  // More experiences...
+  {
+    id: 1,
+    company: "Company Name",
+    position: "Senior Developer",
+    startDate: "June 2020",
+    endDate: "Present",
+    logo: "/images/test.jpg",
+    description: "Description of role and achievements...",
+    technologies: ["React", "Node.js", "AWS"]
+  },
+  {
+    id: 1,
+    company: "Company Name",
+    position: "Senior Developer",
+    startDate: "June 2020",
+    endDate: "Present",
+    logo: "/images/test.jpg",
+    description: "Description of role and achievements...",
+    technologies: ["React", "Node.js", "AWS"]
+  }
 ];
 
 export default experiences;

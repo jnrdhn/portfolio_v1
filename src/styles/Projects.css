@@ -19,7 +19,7 @@
   flex-direction: column;
   margin: 0; /* Reset any default margins */
   box-shadow: 0 4px 6px var(--shadow);
-  padding: 2%;
+  /* padding: 2%; */
 }
 
 .project-card:hover {
@@ -82,6 +82,14 @@
   margin-bottom: 15px;
   flex: 1; /* Allow description to fill space */
 } 
+
+.project-links {
+  display:flex;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-left: 35%;
+  padding-right: 35%;
+}
 
 /* Responsive adjustments */
 @media (max-width: 1200px) {

@@ -4,7 +4,7 @@ const projects = [
       title: "This Very Portflio",
       description: "Built a portfolio using only react",
       shortDescription: "A quick react portfolio made over christmas",
-      image: "/images/projects/project1.jpg",
+      image: "/images/test.jpg",
       technologies: ["React", "Javascript"],
       links: {
         github: "https://github.com/username/project",
@@ -20,7 +20,7 @@ const projects = [
       title: "This Very Portflio",
       description: "Built a portfolio using only react",
       shortDescription: "A quick react portfolio made over christmas",
-      image: "/images/projects/project1.jpg",
+      image: "/images/test.jpg",
       technologies: ["React", "Javascript"],
       links: {
         github: "https://github.com/username/project",
